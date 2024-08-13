@@ -676,10 +676,10 @@ class TreeCoverLossAnalysis(object):
 
         bootstrap_actions = [
             {
-                "Name": "Install GDAL 3.1.2 dependencies",
+                "Name": "Install GDAL 3.8.3 dependencies",
                 "ScriptBootstrapAction": {
-                    "Path": "s3://gfw-pipelines/geotrellis/bootstrap/gdal.sh",
-                    "Args": ["3.1.2"],
+                    "Path": "s3://gfw-pipelines/geotrellis/bootstrap/gdal-3.8.3.sh",
+                    "Args": ["3.8.3"],
                 },
             },
         ]
